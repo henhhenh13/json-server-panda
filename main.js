@@ -25,6 +25,6 @@ server.use((req, res, next) => {
 // Use default router
 server.use(router)
 const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => {
-    console.log(`Our app is running on port ${PORT}`);
+server.listen(PORT, () => {
+    console.log(`Our app is running on port `);
 });
